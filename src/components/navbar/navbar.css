@@ -1,0 +1,36 @@
+@import '../../variables.css';
+
+.navBar{
+    background-color: var(--secondary-bg);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 3px;
+    width: 100%;
+    display: inline-block;
+}
+.icon{
+    font-size: 24px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.list-item{
+    height: 40px;
+    display: flex;
+    color: var(--primary-text);
+    align-items: center;
+    gap: 20px;
+    padding: 2px;
+    margin: 5px;
+}
+
+.text{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
