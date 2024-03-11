@@ -5,15 +5,18 @@ import Home from "./components/home/index.js";
 
 function App() {
   return (
-    <div className="app">
-      <div className="app-left">
-        <NavBar />
-        <Library />
+    <>
+      <div className="app">
+        <div className="app-left">
+          <NavBar />
+          <Library />
+        </div>
+        <div className="app-right">
+          <Home />
+        </div>
       </div>
-      <div className="app-right">
-        <Home />
-      </div>
-    </div>
+      <div className="footer">Created with ❤️ by RKS</div>
+    </>
   );
 }
 

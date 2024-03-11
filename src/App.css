@@ -18,3 +18,10 @@
     /* background-image: linear-gradient(to bottom, rgb(208, 160, 80), #2b2b2b); */
     border-radius: 10px;
 }
+
+.footer{
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+    display: flex;
+    justify-content: center;
+}
