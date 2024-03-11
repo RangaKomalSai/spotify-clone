@@ -35,3 +35,6 @@
 .plus-icon{
     padding-right: 15px;
 }
+.plus-icon:hover{
+    background-color: var(--secondary-bg-light);
+}

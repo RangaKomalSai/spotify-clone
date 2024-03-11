@@ -1,6 +1,7 @@
 #root{
     --primary-bg : black;
     --secondary-bg : #121212;
+    --secondary-bg-light: #2a2929;
     --primary-text: white;
     --secondary-text: #727272;
 }

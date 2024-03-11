@@ -9,6 +9,12 @@
     align-items: center;
 }
 
+.playlistCard:hover{
+    background-color: var(--secondary-bg-light);
+    border-radius: 10px;
+}
+
+
 .card-info{
     display: flex;
     flex-direction: column;

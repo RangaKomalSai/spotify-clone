@@ -22,11 +22,15 @@
 .list-item{
     height: 40px;
     display: flex;
-    color: var(--primary-text);
+    color: var(--secondary-text);
     align-items: center;
     gap: 20px;
     padding: 2px;
     margin: 5px;
+}
+
+.list-item:hover .text{
+    color: var(--primary-text);
 }
 
 .text{
